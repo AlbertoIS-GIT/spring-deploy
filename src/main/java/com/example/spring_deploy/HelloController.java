@@ -17,7 +17,7 @@ public class HelloController {
     }
 
     // Aquí queremos devolver un HTML con bootstrap. Al ser un bloque de String lo hacemos con """  """
-    @GetMapping("/bootstrap")
+    @GetMapping("/")
     public String bootstrap(){
         return """
                 <!doctype html>
